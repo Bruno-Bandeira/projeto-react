@@ -1,0 +1,11 @@
+.card {
+	margin-top: 35px;
+}
+
+.card-body h1 {
+	color: #FF8C00;
+}
+
+.card-body h2 {
+	color: #696969;
+}

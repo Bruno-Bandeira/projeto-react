@@ -1,0 +1,63 @@
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  background-color: #fff;
+  width: 250px;
+  height: 100%;
+  overflow-y: auto;
+  box-shadow: 1px 8px 20px rgba(0,0,0,0.5);
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #FF4500;
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav .fa-check {
+  padding-right: 40px;
+  margin-left: -12px;
+  color: #2E8B57;
+}
+
+.sidebar-nav .fa-times {
+  padding-right: 40px;
+  margin-left: -12px;
+  color: #B22222;
+}
+
+.painel-home {
+  width: 250px;
+  font-size: 20px;
+  color: #C0C0C0;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+}
+
+.painel-home  .fa-tachometer {
+  padding-right: 35px;
+  margin-left: -12px;
+  color: #C0C0C0;
+}

@@ -1,0 +1,22 @@
+.navbar {
+	background-color: #FF8C00;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.navbar a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.navbar-toggle {
+	cursor: pointer;
+}
+
+.ava-link {
+	margin-left: 15px;
+}
+
